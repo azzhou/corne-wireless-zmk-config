@@ -12,6 +12,10 @@
     keep-mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
 };
 
+&lt {
+    flavor = "balanced";
+};
+
 / {
     combos {
         compatible = "zmk,combos";
